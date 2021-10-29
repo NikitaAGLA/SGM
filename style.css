@@ -1,0 +1,138 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 1944px;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-image: url(image/BackGround.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.menu__item {
+    display: inline;
+    color: white;
+}
+.menu__link:hover {
+    padding-bottom: 1px;
+    border-bottom: 2px solid #FFFFFF ;
+    transition: 0.1s;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 355px 0;
+    /* background: rgba(26,26,28,5) */
+}
+
+.logo__img {
+    padding-top: 20px;
+    padding-left: 60px;
+}
+
+.menu {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    width: 700px;
+    padding-right: 64px;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.header__btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    padding: 21px 73px;
+}
+
+.header__btn:hover {
+    background-color: #FFFFFF;
+    color: black;
+    transition: 0.5s;
+}
+
+.header__bottom {
+    margin: 0 auto 460px auto;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__bottom__title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.header__bottom__description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 38px;
+
+}
+
+.header__services {
+    display: flex;
+    background-color: #383C41;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.header__services__content {
+    border: 2px solid #FFFFFF;
+    width: 25%;
+    height: 254px;
+}
+
+.header__services__content>h2 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    padding: 47px 14px 0 31px;
+    margin: 0;
+}
+
+.header__services__content>p {
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px 14px 0 31px;
+}
+
