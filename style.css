@@ -16,15 +16,21 @@ a{
 
 .container {
     max-width: 1944px;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 .header {
     background-image: url(image/BackGround.jpg);
-    height: 100vh;
+    /* height: 100vh; */
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
+}
+.header__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
 }
 
 .menu__item {
@@ -80,7 +86,7 @@ a{
 }
 
 .header__bottom {
-    margin: 0 auto 460px auto;
+    margin: 0 auto 430px auto;
     max-width: 1000px;
     display: flex;
     flex-direction: column;
