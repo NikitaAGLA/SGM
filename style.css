@@ -124,10 +124,26 @@ a{
     width: 25%;
     height: 254px;
 }
+.header__services__content:first-child:hover {
+    background-color: #EFA515;
+    transition: 0.5s;
+}
+.header__services__content:nth-child(2):hover {
+    background-color: #39D175;
+    transition: 0.5s;
+}
+.header__services__content:nth-child(3):hover {
+    background-color: #DE4C8A;
+    transition: 0.5s;
+}
+.header__services__content:last-child:hover {
+    background-color: #00BFFF;
+    transition: 0.5s;
+}
 
 .header__services__content>a>h2 {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 35px;
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
     padding: 47px 14px 0 31px;
@@ -142,9 +158,39 @@ a{
     padding: 0px 14px 0 31px;
 }
 
+.header__services__content:nth-child(3)>a>p,
+.header__services__content:nth-child(2)>a>p,
+.header__services__content:nth-child(1)>a>p {
+    padding-top: 42px;
+}
+
+
+/* .header__services__content__hover {
+    display: none;
+    position: relative;
+    width: 530px;
+    height: 280px;
+    background-color: #EFA515;
+    bottom: 191px;
+    right: 2px;
+    padding: 15px 125px 15px 47px ;
+}
+.header__services__content__hover>a>h2 {
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 43px;
+}
+.header__services__content__hover>a>p {
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+} */
+
 .about_us {
     background-image: url(image/backgroundAboutUs.jpg);
-    height: 1112px;
+    height: 900px;
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -180,7 +226,7 @@ a{
     font-weight: 400;
 }
 
-.about_us__description__we>div {
+/* .about_us__description__we>div {
     max-width: 1800px;
     display: flex;
     justify-content: space-between;
@@ -203,7 +249,7 @@ a{
     transition: 0.3s;
     padding: 35px 15px 38px 15px;
     border-left: 5px solid #f3aa35
-}
+} */
 
 
 .preview {
@@ -239,6 +285,12 @@ a{
     font-size: 24px;
     font-weight: 700;
 }
+
+.href_portfolio {
+    color: blue;
+    text-decoration: underline;
+}
+
 .portfolio__background1 {
     background-image: url(image/bg1.jpg);
     background-repeat: no-repeat;
@@ -338,4 +390,56 @@ input::-webkit-input-placeholder {
     border-top: 1px solid #FFFFFF;
     height: 155px;
     border-bottom: 1px solid #FFFFFF;
+}
+.getAQuote {
+    text-align: center;
+    padding: 80px 0 170px;
+    
+}
+.getAQuote>button {
+
+    width: 586px;
+    height: 72px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+footer {
+    background-image: url(image/bcgfooter.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: ;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    height: 265px;
+}
+
+.footer__logo>a>img {
+    width: 253px;
+    text-align: center;
+    padding-top: 67px;
+}
+.footer_contacts p {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+.footer_contacts {
+    padding-top: 50px;
+}
+
+.footer__polit a{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.footer__polit {
+    padding-top: 80px;
 }
