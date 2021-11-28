@@ -2,6 +2,9 @@
     .services__name{
         font-size: 25px;
     }
+    .header__content{
+        padding-bottom: 150px;
+    }
 }
 @media (max-width: 1650px ){
     .menu__link{
@@ -299,5 +302,204 @@
     }
     .footer__inner{
         height: 175px;
+    }
+}
+@media (max-width: 940px ){
+    #services__name-2{
+        padding-bottom: 0;
+    }
+    #serveces__description-2{
+        margin-top: 8px;
+    }
+    .portfolio__text-right-1{
+        padding-top: 85px;
+    }
+    .portfolio__text-left-2{
+        padding-top: 20px;
+    }
+    .portfolio__text-right-3{
+        padding-top: 11px;
+    }
+    .portfolio__text-left-4{
+        padding-top: 30px;
+    }
+}
+@media (max-width: 800px ){
+    .contacts__input{
+        font-size: 14px;
+        width: 203px;
+        padding-left: 50px;
+    }
+    .contact__form {
+        height: 100px;
+    }
+    .footer__logo-img {
+        width: 130px;
+    }
+    .footer__contacts {
+        padding-top: 44px;
+    }
+    .footer__contacts p {
+        font-size: 10px;
+    }
+    .footer__polit {
+        font-size: 10px;
+    }
+    .footer__polit {
+        padding-top: 65px;
+    }
+    .contact__botton {
+        height: 45px;
+        font-size: 20px;
+    }
+    .contacts__get-a-uote {
+        padding: 40px 0 70px;
+    }
+    .serveces__description {
+        padding-left: 25px;
+        line-height: 130%;
+        margin-top: 22px;
+    }
+    .services__name {
+        font-size: 15px;
+        padding: 10px 0px 12px 24px;
+        line-height: 20px;
+    }
+    #services__name-2 {
+        padding-bottom: 25px;
+    }
+    #services__name{
+        padding-bottom: 0;
+    }
+    #serveces__description {
+        margin-top: 14px;
+    }
+    .portfolio__white-section {
+        height: 350px;
+    }
+    .portfolio__text-right-1 {
+        padding-top: 82px;
+        font-size: 13px;
+        padding: 98px 20px 0 40px;
+    }
+    .portfolio__black-section {
+        height: 350px;
+    }
+    .portfolio__text-left-2{
+        font-size: 13px;
+        padding-top: 30px;
+    }
+    .portfolio__text-right-3{
+        font-size: 13px;
+        padding-top: 22px;
+    }
+    .portfolio__text-left-4{
+        font-size: 13px;
+        padding-top: 40px; 
+    }
+    #serveces__description-2{
+        margin-top: 9px;
+    }
+}
+@media (max-width: 768px ){
+    .services>.containermax{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .services__content{
+        width: 50%;
+    }
+    .services__name {
+        font-size: 22px;
+    }
+    #serveces__description {
+        margin-top: 34px;
+    }
+    .serveces__description{
+        font-size: 16px;
+    }
+    .container {
+        max-width: 748px;
+    }
+    .portfolio__white-section {
+        height: 300px;
+    }
+    .portfolio__text-right-1 {
+        padding: 60px 5px 0 25px;
+    }
+    .portfolio__black-section {
+        height: 320px;
+    }
+    .portfolio__text-left-2 {
+        padding: 13px 0px 0px 25px;
+    }
+    .portfolio__text-right-3 {
+        padding: 20px 0 0 25px;
+    }
+    .portfolio__text-left-4 {
+        padding: 39px 0 0 26px;
+    }
+    .preview__inner {
+        padding-top: 10px;
+        min-height: 400px;
+    }
+    .previw__title {
+        margin-bottom: 25px;
+    }
+}
+@media (max-width: 679px){
+    .container {
+        max-width: 659px;
+    }
+    #serveces__description {
+        margin-top: 14px;
+    }
+    .about-us__title {
+        font-size: 30px;
+    }
+    .about-us__section-name {
+        font-size: 20px;
+    }
+    .about-us__description {
+        font-size: 15px;
+    }
+    .previw__title {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+    .previw__number {
+        font-size: 65px;
+    }
+    .previw__text {
+        font-size: 15px;
+    }
+    .preview__inner {
+        padding-top: 10px;
+        min-height: 335px;
+    }
+    .portfolio__title {
+        font-size: 30px;
+    }
+    .portfolio__white-section {
+        height: 260px;
+    }
+    .portfolio__text-right-1 {
+        padding: 40px 5px 0 25px;
+        font-size: 12px;
+    }
+    .portfolio__black-section {
+        height: 290px;
+    }
+    .portfolio__text-left-2{
+        font-size: 12px;
+        padding: 10px 0px 0px 16px;
+    }
+    .portfolio__text-right-3 {
+        font-size: 12px;
+        padding: 2px 0 0 20px;
+    }
+    .portfolio__text-left-4{
+        font-size: 12px;
+        padding: 28px 0 0 26px;
     }
 }
