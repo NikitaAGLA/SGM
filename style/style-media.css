@@ -1,0 +1,303 @@
+@media (max-width: 1890px ){
+    .services__name{
+        font-size: 25px;
+    }
+}
+@media (max-width: 1650px ){
+    .menu__link{
+        font-size: 22px;
+    }
+    .services__name{
+        font-size: 22px;
+    }
+    .serveces__description{
+        font-size: 13px;
+    }
+}
+@media (max-width: 1500px ){
+    .headder__top{
+        padding-bottom: 270px;
+    }
+    .services__content {
+        height: 210px;
+        font-size: 12px;
+    }
+    .services__name {
+        padding-top: 27px;
+        font-size: 21px;
+    }
+    .portfolio__white-section {
+        height: 540px;
+    }
+    .portfolio__text-right-1{
+        padding-top: 140px;
+        font-size: 18px;
+    }
+    .portfolio__text-left-2 {
+        font-size: 18px;
+        padding: 120px 2px 0 30px;
+    }
+    .portfolio__text-right-3 {
+        font-size: 18px;
+        padding-top: 90px;
+    }
+    .portfolio__black-section {
+        height: 610px;
+    }
+    .portfolio__text-left-4 {
+        font-size: 18px;
+        padding-top: 117px;
+    }
+}
+@media (max-width: 1366px ){
+    .menu__link{
+        font-size: 20px;
+    }
+    .header__title{
+        font-size: 45px;
+    }
+    .header__descr{
+        font-size: 22px;
+    }
+    .header__btn{
+        padding: 16px 57px;
+    }
+    .services__name {
+        padding: 20px 7px 20px 20px;
+    }
+    .serveces__description {
+        padding: 0px 14px 0 18px;
+    }
+    .about-us__title{
+        font-size: 45px;
+    }
+    .preview__inner{
+        min-height: 500px;
+    }
+    .previw__number{
+        font-size: 95px;
+    }
+    .previw__text{
+        font-size: 19px;
+    }
+    .previw__title {
+        font-size: 45px;
+        margin-top: 25px;
+        margin-bottom: 70px;
+    }
+    .portfolio__title{
+        font-size: 45px;
+    }
+    .portfolio__text-left-2{
+        padding-top: 60px;
+    }
+    .portfolio__black-section {
+        height: 580px;
+    }
+    .portfolio__text-right-3 {
+        padding-top: 50px;
+    }
+    .portfolio__text-left-4 {
+        padding-top: 70PX;
+    }
+    .contacts__title {
+        font-size: 50px;
+        margin-bottom: 84px;
+    }
+    .contacts {
+        padding-top: 50px;
+    }
+    .contact__botton {
+        width: 500px;
+        height: 60px;
+        font-size: 23px;
+    }
+    .contacts__get-a-uote {
+        padding: 60px 0 125px;
+    }
+    .contact__form {
+        height: 120px;
+    }
+    .contacts__input {
+        border: 0 solid;
+        font-size: 23px;
+        padding-left: 75px;
+    }
+    .footer__logo-img {
+        width: 220px;
+        padding-top: 80px;
+    }
+    .footer__contacts p {
+        font-size: 19px;
+    }
+    .footer__contacts {
+        padding-top: 96px;
+    }
+}
+@media (max-width: 1280px ){
+    .services__name {
+        padding: 10px 0px 30px 10px;
+    }
+    .header__title {
+        font-size: 40px;
+    }
+    .header__descr {
+        font-size: 18px;
+    }
+    .about-us__title {
+        font-size: 35px;
+    }
+    .about-us__section-name {
+        font-size: 25px;
+    }
+    .about-us__description {
+        font-size: 17px;
+    }
+    .about-us__inner {
+        min-height: 86vh;
+    }
+    .previw__text {
+        font-weight: 600;
+        font-size: 18px;;
+    }
+    .previw__number {
+        font-size: 85px;
+    }
+    .preview__inner {
+        min-height: 470px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .portfolio__white-section {
+        height: 490px;
+    }
+    .portfolio__text-right-1 {
+        padding: 100px 20px 0 45px; 
+    }
+    .portfolio__black-section {
+        height: 535px;
+    }
+    .portfolio__text-left-2 {
+        padding: 15px 00px 0 42px;
+    }
+    .portfolio__text-right-3{
+        padding: 15px 20px 0 45px;
+    }
+    .portfolio__text-left-4{
+        padding: 38px 20px 0 45px;
+    }
+}
+@media (max-width: 1246px ){
+    #services__name{
+        padding-bottom: 0px;
+    }
+    #serveces__description{
+        margin-top: 8px;
+    }
+    .serveces__description{
+        padding-left: 10px;
+    }
+    .services__content {
+        height: 190px;
+    }
+    .portfolio__text-left-2{
+        font-size: 17px;
+        line-height: 180%;
+        padding-top: 58px;
+    }
+    .portfolio__text-right-1{
+        font-size: 17px;
+        line-height: 180%;
+        padding-top: 105px;
+    }
+    .portfolio__text-right-3{
+        font-size: 17px;
+        line-height: 180%;
+        padding-top: 36px;
+    }
+}
+
+
+
+@media (max-width: 1024px ){
+    #services__name{
+        padding-bottom: 0px;
+    }
+    #serveces__description{
+        margin-top: 8px;
+    }
+    .serveces__description{
+        padding-left: 10px;
+    }
+    .services__content {
+        height: 190px;
+    }
+    .previw__number{
+        display: block;
+    }
+    .previw__counter {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .previw__title{
+        margin-top: 50px;
+        font-size: 35px;
+    }
+    .portfolio__title{
+        font-size: 35px;
+    }
+    .portfolio__white-section {
+        height: 400px;
+    }
+    .portfolio__text-right-1{
+        padding-top: 110px;
+        line-height: 120%;
+        font-size: 16px;
+    }
+    .portfolio__black-section{
+        height: 400px;
+    }
+    .portfolio__text-left-2{
+        padding-top: 44px;
+        line-height: 120%;
+        font-size: 16px;
+    }
+    .portfolio__text-right-3{
+        padding-top: 52px;
+        line-height: 120%;
+        font-size: 16px;
+    }
+    .portfolio__text-left-4{
+        padding-top: 52px;
+        line-height: 120%;
+        font-size: 16px;
+    }
+    .contacts__title{
+        font-size: 35px;
+        margin-bottom: 71px;
+    }
+    .contacts__input{
+        font-size: 20px;
+    }
+    .contact__botton{
+        width: 250px;
+    }
+    .footer__logo-img{
+        width: 150px;
+        padding-top: 48px;
+    }
+    .footer__contacts p{
+        font-size: 17px;
+        padding-top: 0;
+    }
+    .footer__polit{
+        font-size: 15px;
+        padding-top: 67px;
+    }
+    .footer__contacts{
+        padding-top: 35px;
+    }
+    .footer__inner{
+        height: 175px;
+    }
+}
