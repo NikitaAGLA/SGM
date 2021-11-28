@@ -503,3 +503,23 @@
         padding: 28px 0 0 26px;
     }
 }
+@media (max-width: 609px){
+    .container {
+        max-width: 589px;
+    }
+    .portfolio__text-right-1 {
+        font-size: 10px;
+        padding-top: 63px;
+    }
+    .portfolio__text-left-2 {
+        font-size: 11px;
+        padding-top: 16px;
+    }
+    .portfolio__text-right-3 {
+        font-size: 11px;
+    }
+    .portfolio__text-left-4 {
+        font-size: 11px;
+        padding: 33px 0 0 26px;
+    }
+}
