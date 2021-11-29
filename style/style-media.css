@@ -52,6 +52,11 @@
         padding-top: 117px;
     }
 }
+@media (max-width: 1440px ){
+    .header__content {
+        padding-bottom: 150px;
+    }
+}
 @media (max-width: 1366px ){
     .menu__link{
         font-size: 20px;
@@ -219,9 +224,6 @@
         padding-top: 36px;
     }
 }
-
-
-
 @media (max-width: 1024px ){
     #services__name{
         padding-bottom: 0px;
@@ -502,6 +504,13 @@
         font-size: 12px;
         padding: 28px 0 0 26px;
     }
+    .menu__list{
+        display: none;
+    }
+    .menu__burg-img{
+        display: block;
+        padding-right: 32px;
+    }
 }
 @media (max-width: 609px){
     .container {
@@ -517,9 +526,255 @@
     }
     .portfolio__text-right-3 {
         font-size: 11px;
+        line-height: 120%;
     }
     .portfolio__text-left-4 {
         font-size: 11px;
         padding: 33px 0 0 26px;
+    }
+    .portfolio__title{
+        margin-top: 30px;
+    }
+    .contacts__title {
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    .contacts {
+        padding-top: 25px;
+    }
+    .contact__form{
+        flex-direction: column;
+        height: 130px;
+    }
+}
+@media (max-width: 567px){
+    .portfolio__white-section {
+        flex-direction: column;
+        margin-bottom: 170px;
+        width: 100%;
+    }
+    .portfolio__text-right-1{
+        background: none;
+        padding: 6px 15px 0 10px;
+        font-size: 11px;
+        line-height: 140%;
+    }
+    .portfolio__img-shadow {
+        max-width: 100%;
+    }
+    .portfolio__black-section {
+        flex-direction: column-reverse;
+        height: 350px;
+        width: 104%;
+        margin-left: -10px;
+    }
+    .portfolio__text-left-2{
+        background: none;
+        line-height: 140%;
+        padding-top: 0px;
+        margin-bottom: 13px;
+        margin-top: 5px;
+    }
+    .portfolio__img {
+        margin: 0 auto;
+    }
+    .portfolio__text-right-3 {
+        background: none;
+        line-height: 140%;
+    }
+    .portfolio__text-left-4 {
+        background: none;
+        line-height: 140%;
+        padding-top: 0px;
+        margin-bottom: 20px;
+        margin-top: 9px;
+    }
+    .contact__form {
+        height: 170px;
+    }
+}
+@media (max-width: 430px){
+    .services__content {
+        width: 100%;
+    }
+    .headder__top {
+        padding-bottom: 160px;
+    }
+    .header__title {
+        font-size: 30px;
+    }
+    .header__descr {
+        font-size: 14px;
+    }
+    .header__btn {
+        padding: 11px 16px;
+    }
+    .header__content {
+        padding-bottom: 60px;
+    }
+    .services__name {
+        font-size: 30px;
+        padding: 13px 0px 12px 24px;
+        line-height: 110%;
+    }
+    .serveces__description {
+        line-height: 180%;
+    }
+    .previw__title {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+    .previw__number {
+        font-size: 45px;
+    }
+    .preview__inner {
+        min-height: 310px;
+    }
+    .portfolio__text-right-1{
+        font-size: 14px;
+    }
+    .portfolio__text-left-2 {
+        font-size: 14px;
+    }
+    .portfolio__img{
+        max-width: 100%;
+    }
+    .portfolio__black-section {
+        height: 452px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .portfolio__text-right-3 {
+        font-size: 14px;
+    }
+    .portfolio__text-left-4 {
+    font-size: 14px;
+    }
+    .sortfolio__section-4{
+        height: 424px;
+    }
+    .sortfolio__section-4{
+        
+    }
+    .portfolio__text-left-4{
+        padding: 0 0 0 17px;
+    }
+    .contacts__title {
+        line-height: 130%;
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    .footer__logo-img {
+        width: 100px;
+    }
+    .footer__inner{
+        flex-wrap: wrap;
+    }
+    .footer__polit {
+        padding-top: 10px;
+    }
+    .footer__contacts {
+        padding-top: 32px;
+    }
+}
+@media (max-width: 414px){
+    .portfolio__img {
+        max-width: 100%;
+    }
+    .portfolio__black-section {
+        box-shadow: 0.4em 0.4em 10px rgb(122 122 122 / 50%);
+        flex-direction: column-reverse;
+        height: 350px;
+        width: 100%;
+        margin-left: 0px;
+        height: 383px;
+    }
+    .portfolio__white-section{
+        margin-bottom: 80px;
+    }
+    .section-3{
+        margin-bottom: 120px;
+    }
+    .logo>img{
+        width: 100px;
+        padding-left: 10px;
+    }
+    .portfolio__text-right-1{
+        font-size: 12px;
+        padding: 6px 5px 0 4px;
+    }
+    .portfolio__text-left-2 {
+        font-size: 12px;
+    }
+    .portfolio__text-right-3 {
+        font-size: 12px;
+        padding: 2px 0 0 0px;
+    }
+    .portfolio__text-left-4 {
+        font-size: 12px;
+        padding: 0 9px 0 14px;
+    }
+    .sortfolio__section-4{
+        height: 373px;
+    }
+    .previw__title {
+        margin-top: 20px;
+    }
+    .preview__inner {
+        min-height: 290px;
+        padding-left: 0px;
+    }
+}
+@media (max-width: 375px){
+    .portfolio__img {
+        max-width: 100%;
+    }
+    .portfolio__black-section {
+        box-shadow: 0.4em 0.4em 10px rgb(122 122 122 / 50%);
+        flex-direction: column-reverse;
+        height: 350px;
+        width: 100%;
+        margin-left: 0px;
+        height: 391px;
+    }
+    .portfolio__white-section{
+        margin-bottom: 80px;
+    }
+    .section-3{
+        margin-bottom: 120px;
+    }
+    .logo>img{
+        width: 100px;
+        padding-left: 10px;
+    }
+    .portfolio__text-right-1{
+        font-size: 12px;
+        padding: 6px 5px 0 4px;
+    }
+    .portfolio__text-left-2 {
+        font-size: 12px;
+    }
+    .portfolio__text-right-3 {
+        font-size: 12px;
+        padding: 2px 0 0 0px;
+    }
+    .portfolio__text-left-4 {
+        font-size: 12px;
+        padding: 0 9px 0 14px;
+    }
+    .sortfolio__section-4{
+        height: 373px;
+    }
+    .previw__title {
+        margin-top: 20px;
+    }
+    .preview__inner {
+        min-height: 290px;
+        padding-left: 0px;
+    }
+}
+@media (max-width: 326px ){
+    .serveces__description {
+        line-height: 130%;
     }
 }
